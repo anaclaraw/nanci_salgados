@@ -7,7 +7,7 @@ const Socials = () => {
     <div className='mt-32 lg:mt-44'>
         <TitleModel title="NOSSAS REDES" subtitle="CONTATO"/>
         <section role='redes-sociais' className='bg-gray-200 w-full mt-6 flex  justify-around h-full items-center' >
-            <img src='/assets/img/post.png' className='w-[30vw] h-[60vw] -mt-4 -mb-4 m-auto rounded-3xl shadow-lg shadow-gray-400' ></img>
+            <img src='/assets/img/post.png' className='w-[30vw] h-[60vw] -mt-4 -mb-4 m-auto rounded-lg shadow-lg shadow-gray-400' ></img>
             
             <div className='w-1/2 flex flex-col items-center lg:gap-8 gap-3 h-full'>
                 <img src='/assets/img/stars.png' className='w-1/2 md:mb-5'/>
