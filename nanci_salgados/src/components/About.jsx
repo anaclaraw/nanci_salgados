@@ -1,8 +1,12 @@
-// import React from 'react'
+ import React,{useEffect, useRef, useState} from 'react'
 import TitleModel from './Title'
+import { useIsVisible } from '../data/services/useIsVisible'
 const About = () => {
+  const ref1 = useRef()
+  const visibile = useIsVisible(ref1)
+
     return (
-        <div className='flex flex-col 2xl:flex-row 2xl:m-auto 2xl:w-max gap-3 mt-20'>
+        <div ref={ref1} id='sobre' className={`transition-opacity ease-in duration-700 ${visibile ? "opacity-100" : "opacity-0"} flex flex-col 2xl:flex-row 2xl:m-auto 2xl:w-max gap-3 mt-20`}>
             <div className='bg-orange-200 rounded-xl  justify-around flex mt-14 border-t-8 border-orange-100 lg:max-w-[60vw] m-auto 2xl:w-[50vw] '>
                 <div className='w-1/2 p-3 flex flex-col items-center'>
 
@@ -45,4 +49,5 @@ function Produtos({ img, subtitle }) {
             <p className='font-semibold w-min text-center'>{subtitle}</p>
         </div>)
 }
+
 export default About

@@ -3,7 +3,7 @@ import { salgados } from "../data/Salgados";
 
 const Cardapio = () => {
   return (
-    <div>
+    <div id="cardapio">
       <div className='bg-red-800 w-full p-4 mt-32 '>
         <div className='bg-yellow-600 -mt-9 m-auto flex flex-col justify-center items-center'>
           <h1 className="text-2xl text-center font-bold text-white font-jet bg-red-800 p-3 -mt-4 px-10">Cardápio</h1>

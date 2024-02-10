@@ -4,10 +4,10 @@ const Reception = () => {
   return (
     <>
       <div>
-        <div className="md:bg-[url('/assets/img/form_red.png')]  mt-14  bg-cover bg-center lg:h-[80vh] flex justify-around items-center ">
+        <div className="md:bg-[url('/assets/img/form_red.png')]  mt-14   bg-cover bg-center lg:h-[80vh] flex justify-around items-center ">
           <div className="w-[60vw] md:w-1/3 ml-2">
             <h1 className='text-xl lg:text-5xl text-black pt-2 md:text-4xl font-jet tracking-tight indent-3 '>O Porto Seguro dos seus salgadinhos.</h1>
-            <p className='text-xs lg:text-[18px] text-black pt-2 pl-1  tracking-tighter indent-2 '>  Seja você já um cliente fiel ou que está visitando pela primeira vez, é um prazer recebê-lo em nosso cantinho de delicias. Aqui na Nanci Salgados somos comprometidos em proporcionar uma experiência deliciosa e acolhedora.</p>
+            <p className='text-xs lg:text-[18px] text-black pt-2 pl-1  md:leading-relaxed tracking-tighter indent-2'>  Seja você já um cliente fiel ou que está visitando pela primeira vez, é um prazer recebê-lo em nosso cantinho de delicias. Aqui na Nanci Salgados somos comprometidos em proporcionar uma experiência deliciosa e acolhedora.</p>
           </div>
           <div className="bg-white shadow-lg w-1/2 rounded-full min-h-32  flex justify-center items-center">
             <img src="/assets/img/logo_nanci.png" className=' p-2' />

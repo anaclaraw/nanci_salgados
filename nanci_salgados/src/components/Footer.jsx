@@ -9,10 +9,11 @@ const Footer = () => {
             <img src="/assets/img/logo_nanci.png" width={'100px'} />
 
             <ul className='flex gap-5 md:pt-4'>
-                <li>Cardápio</li>
-                <li>Inicio</li>
-                <li>Sobre</li>
-                <li>Redes</li>
+                <li><a href="inicio">Inicio</a></li>
+                <li><a href="cardapio">Cardápio</a></li>
+                <li><a href="sobre">Sobre</a></li>
+                <li><a href="contato">Redes</a></li>
+              
             </ul>
 
             <ul className='flex flex-col md:flex-row md:gap-8 justify-center items-center md:pt-4' >

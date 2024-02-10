@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import TitleModel from './Title'
 import { FaInstagram,FaWhatsapp, FaFacebook } from "react-icons/fa";
+import { useIsVisible } from '../data/services/useIsVisible';
 
 const Socials = () => {
+  const visible = useRef()
+  const isVisible = useIsVisible(visible)
   return (
-    <div className='mt-32 lg:mt-44'>
+    <div ref={visible} className={` mt-32 lg:mt-44 transition-opacity ease-in duration-700 ${isVisible? "opacity-100" : "opacity-0"}`} id='contato'>
         <TitleModel title="NOSSAS REDES" subtitle="CONTATO"/>
         <section role='redes-sociais' className='bg-gray-200 w-full mt-6 flex  justify-around h-full items-center' >
             <img src='/assets/img/post.png' className='w-[30vw] h-[60vw] -mt-4 -mb-4 m-auto rounded-lg shadow-lg shadow-gray-400' ></img>

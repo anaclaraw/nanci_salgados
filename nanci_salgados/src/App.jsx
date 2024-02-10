@@ -6,6 +6,7 @@ import Footer from "./components/Footer"
 import TitleModel from "./components/Title"
 import Cardapio from "./components/Cardapio"
 import Socials from "./components/Socials"
+import Reviews from "./components/Reviews"
 function App() {
 
   return (
@@ -16,6 +17,7 @@ function App() {
       <About/>
       <Cardapio/>
       <Socials/>
+      <Reviews/>
       {/* <TitleModel subtitle={"Produtos"} title={"NÓS OFERECEMOS"}/> */}
 <Footer/>
     </div>
