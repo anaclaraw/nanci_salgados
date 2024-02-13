@@ -1,4 +1,4 @@
-# Cardápio e blog interativo
+# Cardápio blog interativo
 Uma plataforma acessível para qualquer tela e navegador, tem como objetivo unir a simplicidade de uma aplicação com seu grande alcance e utilidade.
 O Nanci Salgados nasceu de uma ideia de site para aumentar a visibilidade de uma lojinha de salgados.
 
@@ -8,8 +8,15 @@ O Nanci Salgados nasceu de uma ideia de site para aumentar a visibilidade de uma
 
 🎯 As curvas expressivas do seu logo se inspira na macies dos salgadinhos.
 
+## Ferramentas 🔧
 Construido com React.js, Tailwind e Vite, essa aplicação foi criada com a técnica mobile firt.
  
 
 
-### Acesse já!
+### [Acesse já](https://nanci-salgados.vercel.app/)!
+
+
+
+
+> [!NOTE]
+> Para mais informações ou contratos entre em contato por email.
