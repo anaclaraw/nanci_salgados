@@ -10,7 +10,7 @@ const Reviews = () => {
       <section className='mt-20 w-max max-w-[80vw] m-auto '>
 
         {ReviewsData.map((img) => (
-          <img key={img.img} src={img.img} className='shadow-lg rounded-full mt-9' />
+          <img key={img.img} src={img.img} className='shadow-lg hover:shadow-xl transition-all rounded-full mt-9' />
         )
         )}
 
