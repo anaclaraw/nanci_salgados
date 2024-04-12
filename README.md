@@ -14,6 +14,7 @@ Construido com React.js, Tailwind e Vite, essa aplicação foi criada com a téc
 
 
 ### [Clique aqui para visualizar a página!](https://nanci-salgados.vercel.app/)!
+#### [Clique aqui para acessar o protótipo no Figma!](https://www.figma.com/community/file/1360444243873542429/landing-page-food-restaurant-salgados)!
 
 
 
