@@ -13,7 +13,7 @@ Construido com React.js, Tailwind e Vite, essa aplicação foi criada com a téc
  
 
 
-### [Acesse já](https://nanci-salgados.vercel.app/)!
+### [Clique aqui para visualizar a página!](https://nanci-salgados.vercel.app/)!
 
 
 
